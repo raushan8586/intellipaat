@@ -1,0 +1,67 @@
+root@ip-172-31-42-246:~/project1# history
+    1  apt update -y
+    2  git version
+    3  clear
+    4  git version
+    5  history
+    6  mkdir project1
+    7  cd project1/
+    8  pwd
+    9  ls -la
+   10  git clone https://github.com/raushan8586/intellipaat.git
+   11  ls -l
+   12  cd intellipaat/
+   13  ls -la
+   14  pwd
+   15  cd ..
+   16  ls -l
+   17  rm -rf intellipaat/
+   18  ls -l
+   19  clear
+   20  ls -la
+   21  git init
+   22  git branch
+   23  ls -la
+   24  git status
+   25  clear
+   26  touch file1
+   27  vi file1
+   28  ls -l
+   29  git status
+   30  pwd
+   31  cd /
+   32  pwd
+   33  ls -l
+   34  cd /root/project1/
+   35  ls -l
+   36  clear
+   37  ls -l
+   38  git status
+   39  git add file1
+   40  git status
+   41  git commit -m "1st commit"
+   42  git status
+   43  git ls-files
+   44  cleaR
+   45  clear
+   46  touch file2
+   47  vi file2
+   48  git status
+   49  git ls-files
+   50  ls -l
+   51  git add file2
+   52  git status
+   53  git ls-files
+   54  ls -l
+   55  git commit -m "2nd commit"
+   56  git status
+   57  git ls-files
+   58  ls -l
+   59  git config --list
+   60  git config --global user.name="raushan"
+   61  git config --global username="raushan"
+   62  clear
+   63  git config --global user.name "raushan"
+   64  git config --global user.email "raushan8586.kumar@gmail.com"
+   65  git config --list
+   66  history
