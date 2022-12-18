@@ -65,3 +65,96 @@ root@ip-172-31-42-246:~/project1# history
    64  git config --global user.email "raushan8586.kumar@gmail.com"
    65  git config --list
    66  history
+   67  ls -l
+   68  git ls-files
+   69  git status
+   70  git branch
+   71  clear
+   72  git remote add origin https://github.com/raushan8586/intellipaat.git
+   73  git remote -v
+   74  git push origin master
+   75  history
+   76  git log
+   77  git branch
+   78  git config --list
+   79  git log
+   80  exit
+   81  apt update -y
+   82  ls -l
+   83  cd project1/
+   84  ls -l
+   85  ls -la
+   86  git status
+   87  clear
+   88  git status
+   89  touch file3
+   90  vi file3
+   91  git status
+   92  git ls-files
+   93  ls -l
+   94  git add .
+   95  git status
+   96  git ls-files
+   97  git commit -m "3rd commit"
+   98  git status
+   99  git ls-files
+  100  ls -l
+  101  clear
+  102  git log
+  103  git log --oneline
+  104  git branch
+  105  ls -l
+  106  git describe
+  107  git describe c683ff08abfc1469f6e52953925664ed55808a99
+  108  git describe --all
+  109  git describe --all c683ff08abfc1469f6e52953925664ed55808a99
+  110  clear
+  111  git branch
+  112  git branch b1 master
+  113  git branch
+  114  git checkout b1
+  115  git branch
+  116  git log
+  117  git show c683ff08abfc1469f6e52953925664ed55808a99
+  118  clear
+  119  git log
+  120  git show c683ff08abfc1469f6e52953925664ed55808a99
+  121  git diff c683ff08abfc1469f6e52953925664ed55808a99
+  122  clear
+  123  git log --oneline
+  124  git show c683ff0
+  125  git diff c683ff0 1a0a775
+  126  clear
+  127  git branch
+  128  git log --oneline
+  129  touch b1_sample1
+  130  vi b1_sample1
+  131  git status
+  132  git add b1_sample1
+  133  git status
+  134  git commit -m "b1_1st-commit"
+  135  git log --oneline
+  136  git checkout master
+  137  clear
+  138  got branch
+  139  git branch
+  140  git log --oneline
+  141  ls -l
+  142  git checkout b1
+  143  ls -l
+  144  git ls-files
+  145  git branch
+  146  git log --oneline
+  147  git branch
+  148  ls -l
+  149  git branch
+  150  git checkout master
+  151  clear
+  152  git branch
+  153  git merge b1 master
+  154  git log --oneline
+  155  ls -l
+  156  git remote -v
+  157  git push origin b1
+  158  git push origin master
+  159  history
