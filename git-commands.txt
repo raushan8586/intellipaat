@@ -158,3 +158,62 @@ root@ip-172-31-42-246:~/project1# history
   157  git push origin b1
   158  git push origin master
   159  history
+  160  git branch
+  161  git log --oneline
+  162  clear
+  163  git branch
+  164  git checkout -b b2 master
+  165  git branch
+  166  touch b2_doc1
+  167  vi b2_doc1
+  168  git add .
+  169  git commit -m "b2_1st-commit"
+  170  git checkout b1
+  171  ls -l
+  172  touch b1_sample2
+  173  vi b1_sample2
+  174  git add .
+  175  git commit -m "b2_2nd-commit"
+  176  clear
+  177  git checkout master
+  178  git merge b1 master
+  179  git log --oneline
+  180  git checkout b1
+  181  git log --oneline
+  182  git branch
+  183  git checkout b2
+  184  clear
+  185  git log --oneline
+  186  git rebase master
+  187  git log --oneline
+  188  git checkout b1
+  189  git log --oneline
+  190  git log --graph --pretty=oneline
+  191  clear
+  192  git branch
+  193  ls -l
+  194  touch b1_sample3
+  195  vi b1_sample3
+  196  git add .
+  197  git commit -m "b1_3rd-commit"
+  198  git checkout master
+  199  git merge b1 master
+  200  git checkout b2
+  201  ls -l
+  202  touch b2_doc2
+  203  vi b2_doc2
+  204  git add .
+  205  git commit -m "b2_2nd-commit"
+  206  clear
+  207  git checkout master
+  208  git merge b2 master
+  209  git log --oneline
+  210  git show bab18ce
+  211  git log --graph --pretty=oneline
+  212  git checkout b2
+  213  clear
+  214  git log --oneline
+  215  git checkout master
+  216  git log --oneline
+  217  git log --graph --pretty=oneline
+  218  history
