@@ -217,3 +217,272 @@ root@ip-172-31-42-246:~/project1# history
   216  git log --oneline
   217  git log --graph --pretty=oneline
   218  history
+git status
+  176  rm file1.txt
+  177  ls -l
+  178  git ls-files
+  179  git status
+  180  git restore file1.txt
+  181  ls -l
+  182  git status
+  183  clear
+  184  git rm file1.txt
+  185  ls -l
+  186  git ls-files
+  187  git status
+  188  git restore --staged file1.txt
+  189  git status
+  190  git restore file1.txt
+  191  ls -l
+  192  git ls-files
+  193  git status
+  194  clear
+  195  git status
+  196  ls -l
+  197  git rm --cached file1.txt
+  198  ls -l
+  199  git ls-files
+  200  git status
+  201  git add file1.txt
+  202  git status
+  203  ls -l
+  204  git ls-files
+  205  history
+  206  clear
+  207  git log
+  208  git show 60a9f1ca18eb3a69a70865241ffdc6919b9be492
+  209  ls -l
+  210  clear
+  211  git status
+  212  ls -l
+  213  touch error.log
+  214  touch app2.log
+  215  touch own-file
+  216  touch file4.txt
+  217  vi file4.txt
+  218  git status
+  219  git add file4.txt
+  220  git staus
+  221  git status
+  222  touch .gitignore
+  223  vi .gitignore
+  224  clear
+  225  git status
+  226  git add .gitignore
+  227  git commit -m "6th commit"
+  228  git status
+  229  ls -l
+  230  git ls-files
+  231  cat .gitignore
+  232  git log
+  233  git log --oneline
+  234  ls -l
+  235  touch file5.txt
+  236  vi file5.txt
+  237  git add .
+  238  got commit -m "7th commit"
+  239  git commit -m "7th commit"
+  240  clear
+  241  git log --oneline
+  242  git revert 2d2090c
+  243  git log --oneline
+  244  ls -l
+  245  git revert 2d2090c
+  246  git log --oneline
+  247  ls -l
+  248  clear
+  249  git log --oneline
+  250  git revert 94e1d57
+  251  git log --oneline
+  252  ls -l
+  253  clear
+  254  git log --oneline
+  255  git reset --hard 2d2090c
+  256  git log --oneline
+  257  git status
+  258  exit
+  259  ls -l
+  260  cd app2
+  261  clear
+  262  ls -l
+  263  git log --oneline
+  264  rm .gitignore
+  265  rm *.log error.log
+  266  ls -l
+  267  git status
+  268  cd ..
+  269  clear
+  270  ls -l
+  271  mkdir project1
+  272  cd project1/
+  273  git init
+  274  touch sample1
+  275  vi sample1
+  276  git add .
+  277  git commit -m "1st commit"
+  278  git log --oneline
+  279  clear
+  280  git log --oneline
+  281  git status
+  282  git show 731b3d7
+  283  touch sample2
+  284  vi sample2
+  285  ls -l
+  286  git status
+  287  git ls-files
+  288  git add .
+  289  clear
+  290  ls -l
+  291  git ls-files
+  292  git status
+  293  git commit -m "2nd commit"
+  294  git log --oneline
+  295  git status
+  296  clear
+  297  vi sample1
+  298  git status
+  299  git diff sample1
+  300  vi sample1
+  301  git diff sample1
+  302  clear
+  303  git status
+  304  git add .
+  305  git diff sample1
+  306  git diff --staged sample1
+  307  git status
+  308  git commit -m "3rd commit"
+  309  git status
+  310  clear
+  311  ls -l
+  312  git ls-files
+  313  git status
+  314  rm sample1
+  315  ls -l
+  316  git ls-files
+  317  git status
+  318  git restore sampple1
+  319  git restore sample1
+  320  clear
+  321  ls -l
+  322  git ls-files
+  323  git status
+  324  git rm sample1
+  325  ls -l
+  326  git ls-files
+  327  git status
+  328  git restore --staged sample1
+  329  git status
+  330  git restore sample1
+  331  ls -l
+  332  git ls-files
+  333  git status
+  334  clear
+  335  git log --oneline
+  336  ls -l
+  337  touch error.log
+  338  touch app.log
+  339  touch other-files
+  340  touch sample3
+  341  vi sample3
+  342  git status
+  343  git add sample3
+  344  git status
+  345  touch .gitignore
+  346  vi .gitignore
+  347  git status
+  348  git add .
+  349  got commit -m ".gitignore file added"
+  350  git commit -m ".gitignore file added"
+  351  clear
+  352  git status
+  353  git log --oneline
+  354  ls -l
+  355  vi app.log
+  356  git staus
+  357  git status
+  358  ls -la
+  359  vi .gitignore
+  360  touch sample4
+  361  vi sample4
+  362  git add .
+  363  git commit -m "new-feature-change"
+  364  git log --oneline
+  365  git show d6a5025
+  366  clear
+  367  git status
+  368  git log --oneline
+  369  git revert d6a5025
+  370  ls -l
+  371  git ls-files
+  372  git status
+  373  git log --oneline
+  374  clear
+  375  git log --oneline
+  376  git revert f2b1dbc
+  377  ls -l
+  378  git ls-files
+  379  git status
+  380  git log
+  381  clear
+  382  git log --oneline
+  383  git reset --hard d6a5025
+  384  git log --oneline
+  385  git status
+  386  git ls-files
+  387  git checkout -b b1 master
+  388  git checkout -b b2 master
+  389  git branch
+  390  ls -l
+  391  touch index.html
+  392  vi index.html
+  393  git add .
+  394  git commit -m "b2_1st-commit"
+  395  git log --oneline
+  396  git checout master
+  397  git checkout master
+  398  git merge b2 master
+  399  clear
+  400  git log --oneline
+  401  git checkout b1
+  402  touch index.html
+  403  vi index.html
+  404  git add .
+  405  got commit -m "b1_1st-commit"
+  406  git commit -m "b1_1st-commit"
+  407  git log --oneline
+  408  git checkout master
+  409  git merge b1 master
+  410  ls -l
+  411  cat index.html
+  412  git branch
+  413  vi index.html
+  414  git status
+  415  git add .
+  416  git status
+  417  git commit -m "4th commit"
+  418  git status
+  419  clear
+  420  git status
+  421  git branch
+  422  ls -l
+  423  vi sample1
+  424  vi sample2
+  425  git diff sample1
+  426  git diff sample2
+  427  git status
+  428  clear
+  429  git stash
+  430  git stash list
+  431  git status
+  432  git show stash@{0}
+  433  clear
+  434  git stash list
+  435  git stash pop stash@{0}
+  436  git status
+  437  git stash list
+  438  git stash
+  439  git stash list
+  440  git stash drop stash@{0}
+  441  git status
+  442  git stash list
+  443  history
