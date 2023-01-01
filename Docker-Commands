@@ -1,0 +1,58 @@
+root@ip-172-31-33-108:~# history
+    1  apt update -y
+    2  clear
+    3  docker version
+    4  apt install docker.io -y
+    5  clear
+    6  docker version
+    7  histoty
+    8  history
+    9  docker version
+   10  clear
+   11  docker version
+   12  history
+   13  clear
+   14  docker images
+   15  docker pull httpd
+   16  docker images
+   17  uname -a
+   18  clear
+   19  docker pull fedora
+   20  docker images
+   21  docker ps
+   22  docker ps -a
+   23  docker run -itd fedora
+   24  docker ps
+   25  docker stop 61d5edcf48ab
+   26  docker ps
+   27  docker ps -a
+   28  docker rm 61d5edcf48ab
+   29  docker ps -a
+   30  clear
+   31  docker run -it fedora
+   32  docker images
+   33  docker run -it fedora
+   34  docker ps
+   35  docker ps -a
+   36  dcoker run -itd fedora
+   37  docker run -itd fedora
+   38  clear
+   39  docker ps
+   40  docker inspect 0161ba98faa4
+   41  docker ps
+   42  clear
+   43  docker ps
+   44  docker exec -it 0161ba98faa4 /bin/bash
+   45  docker images
+   46  docker exec -it 0161ba98faa4 /bin/bash
+   47  docker stats
+   48  docker images
+   49  docker commit 0161ba98faa4 fedora_updated
+   50  docker images
+   51  docker run -itd -p 82:80 httpd
+   52  docker ps
+   53  docker exec -it e759dbcf7857 /bin/bash
+   54  docker ps
+   55  docker exec -it e759dbcf7857 /bin/bash
+   56  docker ps
+   57  history
