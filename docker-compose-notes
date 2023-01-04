@@ -1,4 +1,11 @@
 https://docker-docs.netlify.app/compose/wordpress/
 https://docker-docs.netlify.app/compose/django/
 
+docker-compose up -d
+docker-compose down
+
+docker inspect <netword-id>
+docker logs <container-id>
+docker inspect <container-id>
+
 https://www.w3schools.com/MySQL/default.asp
