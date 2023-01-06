@@ -1,1 +1,2 @@
 gcloud container clusters create intellipaat-kuberntes --num-nodes=2 --zone=us-central1-a
+gcloud container clusters delete intellipaat-kuberntes --zone=us-central1-a
