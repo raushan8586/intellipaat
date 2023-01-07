@@ -56,3 +56,88 @@ root@ip-172-31-33-108:~# history
    55  docker exec -it e759dbcf7857 /bin/bash
    56  docker ps
    57  history
+
+
+
+Date- 7Jan 2023
+root@ip-172-31-10-255:~# history
+    1  apt update -y
+    2  apt install docker.io -y
+    3  clear
+    4  docker run -itd -p 82:80 httpd
+    5  docker ps
+    6  docker exec -it 2512fffeeb47 /bin/bash
+    7  docker ps
+    8  docker rm -f 2512fffeeb47
+    9  docker ps
+   10  docker ps -a
+   11  clear
+   12  ls -l
+   13  cd project1
+   14  mkdir project1
+   15  cd project1/
+   16  touch Dockerfile
+   17  vi Dockerfile
+   18  ls -l
+   19  cat Dockerfile
+   20  touch index1.html
+   21  vi index1.html
+   22  docker build . -t httpd_new
+   23  docker images
+   24  docker run -itd -p 82:80 httpd_new
+   25  docker ps
+   26  clear
+   27  docker ps
+   28  docker exec -it 272c87035301 /bin/bash
+   29  cd ..
+   30  mkdir project2
+   31  cd project2
+   32  touch Dockerfile
+   33  vi Dockerfile
+   34  docker build . -t ubuntu_apache2
+   35  docker images
+   36  docker rmi none
+   37  docker rmi 8fe4f82caa0d
+   38  docker images
+   39  ls -l
+   40  touch index1.html
+   41  vi index1.html
+   42  clear
+   43  cat Dockerfile
+   44  vi Dockerfile
+   45  docker build . -t ubuntu1
+   46  docker images
+   47  clear
+   48  cd ..
+   49  docker volume ls
+   50  docker ps
+   51  docker rm -f 272c87035301
+   52  docker ps
+   53  docker volume create intellipaat-volume
+   54  docker volume ls
+   55  find / -name intellipaat-volume
+   56  docker run -itd --mount source=intellipaat-volume,target=/usr/local/apache2/htdocs -p 82:80 httpd
+   57  docker ps
+   58  docker exec -it f3fdf313bc3b /bin/bash
+   59  cd /var/lib/docker/volumes/intellipaat-volume
+   60  ls -l
+   61  cd _data/
+   62  ls -l
+   63  docker run -itd --mount source=intellipaat-volume,target=/usr/local/apache2/htdocs -p 83:80 httpd
+   64  clear
+   65  docker ps
+   66  docker exec -it 65ea76f936ab /bin/bash
+   67  docker exec -it f3fdf313bc3b /bin/bash
+   68  docker ps
+   69  docker rm -f 65ea76f936ab
+   70  docker ps
+   71  docker exec -it f3fdf313bc3b /bin/bash
+   72  cd /root
+   73  ls -l
+   74  clear
+   75  docker ps
+   76  docker inspect f3fdf313bc3b
+   77  docker network ls
+   78  df -h
+   79  clear
+   80  history
