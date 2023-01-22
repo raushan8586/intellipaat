@@ -1,0 +1,98 @@
+Interview
+---------
+Make YOUR OWN QUICK Notes to recap
+Linux Commands
+Keep giving interviews --> Attend the interview to learn the questions
+
+
+DevOps --> AWS DevOps Professional Certification
+------
+Intro to DevOps
+GIT --> 25-30 Commands
+Micro-Services Vs Monolithic
+
+Docker --> All the commands, Dockerfile (ADD/COPY, CMD/Entrypoint)
+
+Kubernetes --> Commands --> Pods, RS, Services, 
+ 
+Jenkins --> Jenkinsfile --> Pipeline as code
+
+Maven
+
+Terraform --> Why? How? What?
+
+Ansible
+
+ELK, Promethus & Grafana --> Status codes
+
+
+AWS  --> Solution Architect Associate --> SAA - C03 
+---
+On-Prem Vs Cloud
+Service Models --> IaaS, Paas, SaaS
+VPC --> CIDR, Subnets, Elastic IP, Private IP, NAT, SG, NACL, VPC Peering
+EC2 --> Spot Instances
+S3, EBS, EFS
+Load Balancer, Auto-Scaling
+CloudWatch
+Server-less Services  --> Lambda, Beanstalk (PaaS)
+DynamoDB, S3, Lambda, Eventbridge, SES, SQS, SNS
+
+Serverless services & Managed Services  --> RDS, LB
+Route 53
+
+Disaster Recovery  --> RPO, RTO
+Active , Passive
+https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+
+Databases --> Read Replicas --> Performance https://aws.amazon.com/rds/features/read-replicas/
+HA --> Multi-AZ deployment --> Standby database
+
+Cloudformation --> Terraform
+OpsWorks --> Ansible
+
+Kubernetets --> EKS/GKE/AKS
+
+Project Specifics
+------------------
+How the architecture? --> Flow
+Scenarios
+
+
+Manager
+-------
+To lead a team -->
+
+Java, MySQL/Postgres, Oracle PL/SQL, Python
+
+Automation - DevOps
+Jenkins, Shell-Scripting, Python-Scripting
+
+Automation Ideas, Pain-points, Process - Automation
+
+Development Manager  -->
+
+Operations Managers --> Reliability
+Monitoring, Alerts, Incident management, 
+
+Cloud Architect, DevOps Architect
+
+10 Yrs
+2018 - 2022 --> 
+Manual Testing / Selenium (Java)
+DevOPs Engineer
+India
+
+Location ---> 
+Expertise --> 
+
+DevOps Manager -->
+
+DevOps Engineer 
+
+15+
+Senior Manager
+Director --> Cloud
+
+AWS --> Be an expert
+
