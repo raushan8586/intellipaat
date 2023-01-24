@@ -1,0 +1,10 @@
+root@ip-172-31-36-186:~# history
+    1  apt update -y
+    2  clear
+    3  python3 --version
+    4  apt install software-properties-common
+    5  apt-add-repository --yes --update ppa:ansible/ansible
+    6  apt update -y
+    7  apt install ansible
+    8  ansible --version
+    9  history
